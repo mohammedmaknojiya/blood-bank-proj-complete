@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.home_body_image{
+ width: 100%;
+ height: 500px;
+}
+
+.welcome_div{
+    width: 100%px;
+    height: 150px;
+    border: 2px solid rgb(223, 60, 60);
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(250, 123, 123);
+    
+    
+}
+@media screen and (max-width: 600px) {
+  .welcome_div {
+      margin-left: 5px;
+      margin-right: 5px;
+    
+  }
+}
+
+.details{
+    border:2px solid black;border-radius: 10px;
+    margin-bottom: 20px;
+
+}
